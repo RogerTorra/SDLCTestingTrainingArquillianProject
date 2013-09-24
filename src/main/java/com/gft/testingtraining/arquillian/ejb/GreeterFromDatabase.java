@@ -3,6 +3,7 @@ package com.gft.testingtraining.arquillian.ejb;
 
 import javax.ejb.*;
 import javax.persistence.*;
+import com.gft.testingtraining.arquillian.domain.*;
 
 /** 
  * Small example of EJB 3.1, with DB access
@@ -13,12 +14,12 @@ public class GreeterFromDatabase {
     @PersistenceContext
     EntityManager em;
     
-    public BlaBla greet(Long id) {
-        return em.find(BlaBla.class, id);
+    public BasicModelUnit greet(Long id) {
+        return em.find(BasicModelUnit.class, id);
     }
 
     public void save(String text) {
-        BlaBla message = new BlaBla();
+        BasicModelUnit message = new BasicModelUnit();
         message.setText(text);
         em.persist(message);
     }
