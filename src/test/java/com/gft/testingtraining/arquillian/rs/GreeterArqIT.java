@@ -1,5 +1,6 @@
 package com.gft.testingtraining.arquillian.rs;
 
+import com.gft.testingtraining.arquillian.cdi.Greeter;
 import org.jboss.arquillian.container.test.api.*;
 import org.jboss.arquillian.junit.*;
 import org.jboss.arquillian.test.api.*;

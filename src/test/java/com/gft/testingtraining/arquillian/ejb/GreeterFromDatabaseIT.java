@@ -1,5 +1,6 @@
 package com.gft.testingtraining.arquillian.ejb;
 
+import com.gft.testingtraining.arquillian.database.DatabaseInitializer;
 import com.gft.testingtraining.arquillian.domain.BasicModelUnit;
 import org.jboss.arquillian.container.test.api.*;
 import org.jboss.arquillian.junit.*;

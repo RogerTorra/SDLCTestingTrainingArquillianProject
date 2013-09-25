@@ -1,5 +1,6 @@
 package com.gft.testingtraining.arquillian.ejb;
 
+import com.gft.testingtraining.arquillian.cdi.Location;
 import org.junit.*;
 
 import static org.junit.Assert.*;

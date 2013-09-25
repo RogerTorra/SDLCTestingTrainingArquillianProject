@@ -1,5 +1,6 @@
 package com.gft.testingtraining.arquillian.ejb;
 
+import com.gft.testingtraining.arquillian.cdi.Location;
 import org.jboss.arquillian.container.test.api.*;
 import org.jboss.arquillian.junit.*;
 import org.jboss.shrinkwrap.api.*;

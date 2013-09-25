@@ -5,6 +5,7 @@ import javax.ejb.*;
 import javax.inject.*;
 import javax.interceptor.*;
 import javax.ws.rs.*;
+import com.gft.testingtraining.arquillian.cdi.Location;
 
 /** 
  * Small example of EJB 3.1, with CDI injection
